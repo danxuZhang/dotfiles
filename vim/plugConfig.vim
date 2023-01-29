@@ -33,7 +33,7 @@ Plug 'vim-airline/vim-airline'
 " Plug 'ycm-core/YouCompleteMe'
 
 " Ctag Settings
-Plug 'craigemery/vim-autotag'
+" Plug 'craigemery/vim-autotag'
 
 " Initialize plugin system
 call plug#end()
@@ -43,4 +43,4 @@ call plug#end()
 let g:airline#extensions#tabline#enabled = 1
 
 " Select ColorScheme
-colorscheme nord
+colorscheme default
