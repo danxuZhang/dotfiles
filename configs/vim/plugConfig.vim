@@ -28,9 +28,8 @@ Plug 'arcticicestudio/nord-vim'
 " Airline
 Plug 'vim-airline/vim-airline'
 
-" Vim Autocomplete
-" Plug 'vim-scripts/AutoComplPop'
-" Plug 'ycm-core/YouCompleteMe'
+" Rust 
+Plugin 'rust-lang/rust.vim'
 
 " Ctag Settings
 " Plug 'craigemery/vim-autotag'
