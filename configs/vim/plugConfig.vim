@@ -29,7 +29,7 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'vim-airline/vim-airline'
 
 " Rust 
-Plugin 'rust-lang/rust.vim'
+Plug 'rust-lang/rust.vim'
 
 " Ctag Settings
 " Plug 'craigemery/vim-autotag'
@@ -42,4 +42,6 @@ call plug#end()
 let g:airline#extensions#tabline#enabled = 1
 
 " Select ColorScheme
-colorscheme default
+colorscheme onedark
+" Set background to be transparent
+hi Normal guibg=NONE ctermbg=NONE
