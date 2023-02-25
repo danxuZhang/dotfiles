@@ -49,7 +49,7 @@ call plug#end()
 let g:airline#extensions#tabline#enabled = 1
 
 " Select ColorScheme
-colorscheme PaperColor
+" colorscheme PaperColor
 " Set background to be transparent
 hi Normal guibg=NONE ctermbg=NONE
 
@@ -57,5 +57,6 @@ hi Normal guibg=NONE ctermbg=NONE
 " set background=light
 " colorscheme PaperColor
 " Set Dark Paperlike
-" set background=dark
-" colorscheme PaperColor
+set background=dark
+colorscheme PaperColor
+
