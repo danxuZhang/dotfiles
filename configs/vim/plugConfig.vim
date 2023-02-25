@@ -24,6 +24,7 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 " ColorSchemes
 Plug 'joshdick/onedark.vim'
 Plug 'arcticicestudio/nord-vim'
+Plug 'NLKNguyen/papercolor-theme'
 
 " Airline
 Plug 'vim-airline/vim-airline'
@@ -42,6 +43,13 @@ call plug#end()
 let g:airline#extensions#tabline#enabled = 1
 
 " Select ColorScheme
-colorscheme onedark
+colorscheme PaperColor
 " Set background to be transparent
 hi Normal guibg=NONE ctermbg=NONE
+
+" Set Light Paperlike
+" set background=light
+" colorscheme PaperColor
+" Set Dark Paperlike
+" set background=dark
+" colorscheme PaperColor
