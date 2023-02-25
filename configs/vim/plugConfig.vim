@@ -32,6 +32,12 @@ Plug 'vim-airline/vim-airline'
 " Rust 
 Plug 'rust-lang/rust.vim'
 
+" Ruby
+Plug 'vim-ruby/vim-ruby'
+
+" Asynchronous Lint Engine
+Plug 'dense-analysis/ale'
+
 " Ctag Settings
 " Plug 'craigemery/vim-autotag'
 
