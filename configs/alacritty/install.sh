@@ -1,4 +1,5 @@
 #!/bin/sh
 
-mkdir -p ~/.config/alacritty/
-cp alacritty.yml ~/.config/alacritty/
+mkdir -p $HOME/.config/alacritty
+cp alacritty.yml $HOME/.config/alacritty/
+
