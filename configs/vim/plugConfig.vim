@@ -58,5 +58,5 @@ hi Normal guibg=NONE ctermbg=NONE
 " colorscheme PaperColor
 " Set Dark Paperlike
 set background=dark
-colorscheme PaperColor
+colorscheme onedark
 
