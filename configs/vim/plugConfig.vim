@@ -29,9 +29,6 @@ Plug 'NLKNguyen/papercolor-theme'
 " Airline
 Plug 'vim-airline/vim-airline'
 
-" Rust 
-Plug 'rust-lang/rust.vim'
-
 " Ruby
 Plug 'vim-ruby/vim-ruby'
 

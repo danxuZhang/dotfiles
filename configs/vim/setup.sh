@@ -1,4 +1,4 @@
-#!/bin/zsh
+#!/bin/sh
 
 mkdir -p ~/.vim
 mkdir -p ~/.vim/autoload
