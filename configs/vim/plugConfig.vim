@@ -24,13 +24,12 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 " ColorSchemes
 Plug 'joshdick/onedark.vim'
 Plug 'arcticicestudio/nord-vim'
-Plug 'NLKNguyen/papercolor-theme'
 
 " Airline
 Plug 'vim-airline/vim-airline'
 
 " Ruby
-Plug 'vim-ruby/vim-ruby'
+" Plug 'vim-ruby/vim-ruby'
 
 " Asynchronous Lint Engine
 Plug 'dense-analysis/ale'
@@ -55,5 +54,5 @@ hi Normal guibg=NONE ctermbg=NONE
 " colorscheme PaperColor
 " Set Dark Paperlike
 set background=dark
-colorscheme onedark
+colorscheme nord
 
