@@ -3,6 +3,13 @@ window:
     columns: 80
     lines: 24
 
+font:
+  normal:
+    family: JetbrainsMono Nerd Font
+    style: Regular
+
+  size: 12
+
 schemes:
   # Tokyo Night theme, based on both:
   #   https://github.com/ghifarit53/tokyonight-vim
