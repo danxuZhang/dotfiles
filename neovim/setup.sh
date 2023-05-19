@@ -12,10 +12,13 @@ fi
 
 if [ ! -d $CONFIG_PATH ]; then
     mkdir -p $CONFIG_PATH
+    mkdir -p $CONFIG_PATH/lua
+    mkdir -p $CONFIG_PATH/after
     echo "Created new directory $CONFIG_PATH"
 fi
 
-cp -r init.lua lua/ after/ $CONFIG_PATH
+cp -r * $CONFIG_PATH
 
 echo "NeoVim config finished"
+echo "Run :PackerSync to install or update plugins"
 
