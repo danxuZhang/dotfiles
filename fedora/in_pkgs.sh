@@ -9,9 +9,9 @@ echo "Updating dnf..."
 dnf up
 
 echo "Installing system utils..."
-dnf install neofetch git vim neovim curl
+dnf install neofetch git vim neovim curl cloc
 
 echo "Installing compilers and interpreters..."
-dnf install make gcc g++ gdb cmake 
+dnf install make gcc g++ gdb cmake nodejs
 
 
