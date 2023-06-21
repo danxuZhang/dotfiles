@@ -23,6 +23,7 @@ bindkey -v
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/danxu/.zshrc'
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
 autoload -Uz compinit
 compinit
@@ -57,7 +58,6 @@ alias fgrep='fgrep --color=auto'
 alias diff='colordiff'
 
 
-## Use NeoVim to replace Vim and vi
-alias vi=nvim
-alias vim=nvim
+alias vi=vim
+# alias vim=nvim
 
