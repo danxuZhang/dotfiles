@@ -19,7 +19,7 @@ call plug#begin()
 " Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 
 " On-demand loading
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+" Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 
 " ColorSchemes
 Plug 'joshdick/onedark.vim'
@@ -28,11 +28,8 @@ Plug 'arcticicestudio/nord-vim'
 " Airline
 Plug 'vim-airline/vim-airline'
 
-" Ruby
-" Plug 'vim-ruby/vim-ruby'
-
 " Asynchronous Lint Engine
-Plug 'dense-analysis/ale'
+" Plug 'dense-analysis/ale'
 
 " Ctag Settings
 " Plug 'craigemery/vim-autotag'
