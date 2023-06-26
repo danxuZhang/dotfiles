@@ -6,6 +6,7 @@ lsp.ensure_installed({
 	'bashls',
 	'clangd',
 	'pyright',
+    'rust_analyzer',
 })
 
 local cmp = require('cmp')
