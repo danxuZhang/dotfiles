@@ -64,9 +64,9 @@ alias dev='cd ~/Code/'
 alias think='cd ~/Code/ThinkValut'
 
 # Git shortcuts
-alias gitst='git status'
-alias gitcm='git commit'
-alias gitlg='git log --oneline --graph --color'
+alias 'gst'='git status'
+alias 'gcm'='git commit'
+alias 'glg'='git log --oneline --graph --color'
 
 # Cloc shortcuts
 alias cloc='cloc .'
