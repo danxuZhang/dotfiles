@@ -61,7 +61,7 @@ alias vi=vim
 
 # Shortcuts to folders
 alias dev='cd ~/Code/'
-alias think='cd ~/Code/ThinkValut'
+alias think='cd ~/Code/ThinkVault'
 
 # Git shortcuts
 alias 'gst'='git status'
