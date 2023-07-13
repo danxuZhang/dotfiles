@@ -67,6 +67,7 @@ alias think='cd ~/Code/ThinkVault'
 alias 'gst'='git status'
 alias 'gcm'='git commit'
 alias 'glg'='git log --oneline --graph --color'
+alias 'gpom'='git push origin master'
 
 # Cloc shortcuts
 alias cloc='cloc .'
