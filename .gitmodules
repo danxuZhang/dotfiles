@@ -4,3 +4,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/danxuZhang/nvim.config.git
+[submodule "kitty/catppuccin"]
+	path = kitty/catppuccin
+	url = https://github.com/catppuccin/kitty.git
